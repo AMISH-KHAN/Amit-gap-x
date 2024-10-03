@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <section className=' bg-[#000000]'>
+      <section className=' bg-[#000000] font-display'>
 
         <Header />
         <About />
