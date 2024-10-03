@@ -1,0 +1,91 @@
+
+.btn-primary {
+    background-color: #000000 !important; /* Custom primary button color */
+    border-color: #4a90e2 !important;
+  }
+  
+  .accordion{
+    border-color: black !important;
+    border-width: 0;
+    background-color: transparent;
+}
+
+
+.accordion-item{
+    
+    background-color: #121212!important;
+    border-color: #121212!important;
+    outline: none !important;
+    border: 1px solid #ffffff21 !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+    margin: 12px !important;
+    padding: 5px !important;
+}
+  
+.accordion-item:active{
+    
+    background-color: #121212!important;
+    outline: none !important;
+    
+}
+
+.accordion-button {
+      background-color: #121212!important;
+      border-radius:10px ;
+      color: #ececec !important; /* Custom text color */
+      outline: none !important;
+      padding: 0;
+    }
+    .accordion-button:focus {
+       background-color: #121212!important;
+       box-shadow: none !important;
+       font-size: 17px !important;
+    }
+    .accordion-button:not(.collapsed){
+        font-size: 17px !important;
+      background-color: #121212!important;
+
+  }
+    .accordion-button:not(.collapsed)>div{
+        font-size: 17px !important;
+      background-color: #121212!important;
+
+  }
+
+  .accordion-button::after{
+    width: 0 !important;
+  }
+
+  .navbar-toggler{
+    background: linear-gradient(90deg, #57934e, #aae9a1);
+    border: 1px solid #57934e
+  }
+  
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .custom-after::after {
+    content: "";
+    background: #1a1a1a;
+    border-radius: 18px 18px 0 0;
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%) rotateX(4deg);
+    width: calc(100% - 8px);
+  }
+  .animate-slide {
+    animation: slide 15s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
