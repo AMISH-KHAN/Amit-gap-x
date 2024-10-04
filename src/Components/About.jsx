@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <>
-          <section id='about' className='py-[70px] w-full font-display'>
+          <section id='about' className='py-[68px] w-full font-display'>
           <div className="xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8 mb-8  z-20 m-auto">
           {/* <div className="flex  flex-col md:flex-row-reverse  font-display font-semibold pt-12 lg:px-4 px-0  justify-between" >
 
@@ -26,7 +26,7 @@ export default function About() {
   </div>
   </div> */}
  <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative  z-20 m-auto flex lg:flex-row flex-col'>
-                  <div className=' font-display lg:w-5/12 w-full px-4 lg:pr-4'>
+                  <div className=' font-display lg:w-5/12 w-full lg:pr-4 pb-[68px]'>
                       <h1 className='text-[40px] lg:text-[54px] font-[850] text-white'>About <span className='text-[#7ec273]'>Gap-X</span></h1>
                       <p className='mt-4 text-[17px] font-normal text-white'>Discover Gapx, where innovation meets reliability in the digital realm.</p>
                       <div className='mt-12'>
@@ -44,13 +44,11 @@ export default function About() {
                           </div>
                       </div>
                   </div>
-                  <div className=' w-full flex px-4  md:w-[40%] md:h-[40%] m-auto h-full'>
+                  <div className=' w-full flex px-4 pt-8  md:w-[40%] md:h-[40%] m-auto h-full'>
                       <img src="./assets/asset 2.png" className='w-full' alt="" />
                       
                   </div>
               </div>
-          
-          
           <div class="relative overflow-hidden pt-10 max-w-screen-lg justify-center items-center mx-auto ">
         <div class="absolute inset-0 flex items-center justify-between px-10">
           <div class="w-64 h-full bg-gradient-to-l "></div>
@@ -63,10 +61,12 @@ export default function About() {
             <img src="https://gemfinder.cc/upload/1626681850.png" alt="Forbes" class="h-16 mx-10 " />
             <img src="https://cdn.prod.website-files.com/6597cc7be68d63ec0c8ce33f/65b652c77b3c487c2a45ab01_DEXTools__white.webp" alt="Macy's" class="h-16 mx-10 " />
                   </div></div>
+          
+          
               
                   </div>
-                  <h2 class="lg:text-7xl text-5xl font-bold   text-center text-white pt-10 ">Token <samp class=" text-[#7ec273]">Details</samp> </h2>
-                  <div className="mt-12 md:flex justify-center items-center max-w-screen-xl mx-auto px-8 gap-10 ">
+                  <h2 class="lg:text-[58px] text-[40px] font-[850] text-center text-white pt-[68px] ">Token <samp class=" text-[#7ec273]">Details</samp> </h2>
+                  <div className="mt-12 md:flex justify-center items-center max-w-screen-xl mx-auto px-4 lg:px-8 gap-10 ">
       {/* First List */}
       <ul className="list-none p-0 m-0 w-full md:w-1/2">
         <li className="rounded-md border border-[#262932] flex items-center h-[60px] text-white text-[.875rem] md:text-[18px] mb-5">
@@ -135,8 +135,8 @@ export default function About() {
     </div>
           </section>
           
-          <section className="max-w-screen-xl backdrop-blur-sm px-4 flex flex-col items-center justify-center mx-auto">
-      <h1 className="font-black lg:text-7xl text-5xl mt-10 text-white text-center mb-4">
+          <section className="max-w-screen-xl backdrop-blur-sm px-4 flex flex-col pb-[68px] items-center justify-center mx-auto">
+      <h1 className=" lg:text-[58px] text-[40px] font-[850]  pt-[68px] pb-8 text-white text-center mb-4">
         Our Mission &amp; Vision
       </h1>
 
@@ -180,9 +180,7 @@ export default function About() {
 
           </section>
           
-          <div className="flex items-center max-w-screen-xl mx-auto justify-center text-white pt-10">
-     
-    </div>
+         
     </>
   )
 }

@@ -4,9 +4,9 @@ export default function Feature() {
   return (
     <>
           <section className='w-full  py-[68px]'>
-              <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-8  z-20 m-auto'>
+              <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:pd-8  z-20 m-auto'>
                   <div>
-                  <h2 className="lg:text-7xl text-5xl font-bold mb-4 font-display text-center text-white">
+                  <h2 className="lg:text-[58px] text-[40px] font-[850]text-5xl font-bold mb-4 font-display text-center text-white">
           GAP-X <samp className="font-display text-[#7ec273]">Ecosystem</samp>
         </h2>
                      

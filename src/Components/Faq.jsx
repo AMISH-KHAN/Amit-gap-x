@@ -5,8 +5,8 @@ import Accordion from 'react-bootstrap/Accordion';
 export default function Faq() {
   return (
     <>
-       <section className='w-full  py-[68px] relative'>
-              <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-8  z-20 m-auto'>
+       <section className='w-full  pb-[68px] relative'>
+              <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8  z-20 m-auto'>
 
     <div className=" mx-auto py-8">
       <h2 className="text-[30px] md:text-[80px]  font-extrabold text-white mb-16">Frequently Asked Questions</h2>
@@ -71,7 +71,7 @@ export default function Faq() {
 
         </div>
         
-          <img src="./assets/asset 15.png" className=' h-full absolute top-0 right-0 max-w-none max-h-none' alt="" />
+          <img src="./assets/asset 15_1.png" className=' h-full absolute top-0 right-0 max-w-none max-h-none' alt="" />
         
               </section>
     </>

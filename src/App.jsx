@@ -20,7 +20,7 @@ function App() {
         <About />
         <Roadmap />
         <Tokenomics />
-        {/* <Faq/> */}
+        <Faq/>
         <Contact />
         <Footer/>
       </section>

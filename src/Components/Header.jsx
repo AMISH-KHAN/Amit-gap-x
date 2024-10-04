@@ -156,7 +156,7 @@ export default function Header() {
 
             <div className="flex  flex-col md:flex-row  font-display font-semibold py-0 md:py-12 lg:px-12 px-4 " >
 
-            <div class=" flex-col flex z-30 w-full lg:w-3/5 py-12 lg:py-24 px-4 ">
+            <div class=" flex-col flex z-30 w-full lg:w-3/5 py-12  ">
               <h4 className="text-[34px] lg:text-[63px] font-black text-white">
               Shaping Your Secure Digital Future with{" " }
                 <span className="text-[#7ec273]">Gap-X</span>
@@ -172,14 +172,14 @@ export default function Header() {
             </div>
             </div>
             {/* <div className=" "> */}
+          {/* </div> */}
+              </section>
             <img
-              className=" absolute right-0 opacity-70 w-[31rem] md:w-[full] bottom-[-42rem] md:top-12"
+              className=" absolute right-0 opacity-70 w-[31rem] md:w-[full] bottom-[-9rem] md:bottom-[-42rem] md:top-12"
               src="./assets/glow1.png"
               
               alt=""
             />
-          {/* </div> */}
-              </section>
       </header>
            
  

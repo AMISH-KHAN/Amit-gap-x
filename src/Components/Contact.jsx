@@ -3,8 +3,8 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <section className="w-full  py-[68px] relative font-display">
-        <div className="xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-8  z-20 m-auto">
+      <section className="w-full  pb-[68px] relative font-display">
+        <div className="xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8  z-20 m-auto">
           <div className="bg-black min-h-screen  flex flex-col lg:flex-row  ">
               <div className="w-full lg:w-1/2">
                 <h1 className="text-4xl font-bold text-white mb-6">
@@ -58,7 +58,7 @@ export default function Contact() {
               </div>
 
               {/* Optional Illustration Section */}
-              <div className=" lg:w-1/2 w-full pl-10 ">
+              <div className=" md:w-1/2 m-auto w-full pl-10 ">
                 <img
                   src="./assets/asset 14.png"
                   alt="Illustration"

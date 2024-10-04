@@ -5,9 +5,9 @@ export default function Tokenomics() {
     <>
           
           <section id='tokenomics' className='w-full  py-[68px] font-display'>
-              <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-8  z-20 m-auto text-white'>
+              <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8  z-20 m-auto text-white'>
                   <div>
-                      <h5 className='text-[44px] md:text-[70px] font-extrabold  mb-4'>
+                      <h5 className='text-[40px] md:text-[70px] font-extrabold  mb-4'>
                           Total
                           <br />
                           <span className='text-[#7ec273]'>Supply & Allocation</span>
@@ -17,12 +17,12 @@ export default function Tokenomics() {
                   
                   <div className='mt-12 flex flex-col xl:flex-row w-full '>
                       <div className='xl:w-1/2 w-full '>
-                          <img src="./assets/asset 12.png" className=' max-w-full md:max-w-none  ' alt="" />
+                          <img src="./assets/asset 12_1.png" className=' max-w-full md:max-w-none  ' alt="" />
                       </div>
                       <div className='flex md:flex-row flex-col justify-start lg:justify-around mt-8 '> 
                           
                       
-                      <div className='flex w-full md:w-1/3  xl:w-1/2 px-[12px] '>
+                      <div className='flex w-full md:w-1/3  xl:w-1/2  '>
                           <div className='w-full  '>
                              
                               <div className='mt-12'>
@@ -46,7 +46,7 @@ export default function Tokenomics() {
                           </div>
                       </div>
                       
-                      <div className='flex w-full md:w-1/3  xl:w-1/2 px-[12px] '>
+                      <div className='flex w-full md:w-1/3  xl:w-1/2  '>
                           <div className='w-full  '>
                               
                               <div className='mt-12'>
