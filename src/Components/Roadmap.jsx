@@ -54,7 +54,7 @@ export default function Roadmap() {
                   </div>
               </div>
 
-              <div className='bg-[#0d0d0d]  pt-[18px] pb-0 lg:pb-[90px] lg:overflow-hidden overflow-x-hidden h-fit lg:h-[90vh]'>
+              <div className='bg-[#0d0d0d]  pt-[18px] pb-0 lg:pb-[90px] lg:overflow-hidden overflow-x-hidden h-fit  lg:h-[90vh]'>
                   <div className='mb-12 mt-4 z-[2] relative text-white xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto px-4 lg:px-8 flex flex-col lg:flex-row'>
                       <div className='w-full lg:w-1/2 my-12  '>
                           
@@ -67,7 +67,7 @@ export default function Roadmap() {
               
                       </div>
 
-                      <div className='w-[70%] m-auto lg:w-5/12 relative  h-fit '>
+                      <div className='w-[70%] m-auto lg:w-5/12 relative h-[50vh]  md:h-fit '>
                           <div>
                               
                       <div className=" content-[''] w-[413px] h-[213px] rounded-[50%]   relative top-36 left-36 blur-[200px] bg-gradient-custom-glow-02"></div>
@@ -82,23 +82,17 @@ export default function Roadmap() {
               </section>
 
           <section className='py-[70px] w-full'>
-          <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8 z-20 m-auto flex '>
+          <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8 z-20 m-auto flex  '>
 
-                  <div className='flex lg:flex-row flex-col'>
-                      <div className='w-[70%] m-auto md:m-0 md:w-1/3 py-4 lg:w-1/3'>
-                          <img src="./assets/asset 11.png" className='w-full z-20 relative' alt="" />
-                          <div className=' absolute left-[-100px]'>
-                              <div className=' absolute content-[""] bottom-[75px] bg-gradient-to-b from-[#00c2ff00] to-[#ff29c3] rounded-full blur-[117px] h-[440px] w-0 md:w-[440px] left-[280px] right-0 opacity-70 '></div>
-                              <div className=' absolute content-[""] bottom-[75px] bg-gradient-to-b from-[#184bff00] to-[#42bf2f] blur-[100px] h-[456px] w-[321px] opacity-60'></div>
-                          </div>
-                      </div>
+                  <div className='flex lg:flex-row flex-col gap-16'>
+                     
 
-                      <div className= 'w-[90%] md:w-[65%] lg:w-1/2  lg:mx-auto my-8 text-wrap'>
+                      <div className= 'w-[90%] md:w-[65%] lg:w-1/2   my-8 text-wrap'>
                           <button className=' box px-[25px] py-[15px] text-[18px] text-white w-fit border-[1px] rounded-[10px]'>
                           Our <span className='text-[#7ec273] text-[17px] font-bold'>Audit Report</span>
                           </button>
 
-                          <h1 className='mt-4 text-[44px] md:text-[60px] font-bold text-white'>
+                          <h1 className='mt-4 text-[37px] lg:text-[58px] font-extrabold text-white'>
                             Download  Our<br />
                               <span className='text-[#7ec273]'>  Audit Report</span>
                           </h1>
@@ -109,6 +103,13 @@ export default function Roadmap() {
 
                           <button  className="bg-custom-gradient border-none outline-none text-black font-display text-[18px] font-semibold w-fit mt-4 pt-4 pr-[28px] pb-[18px] pl-[27px] rounded-[10px]" >Download Now</button>{' '}
               
+                      </div>
+                      <div className='w-[70%] m-auto lg::m-0 md:w-1/3 py-4 lg:w-1/3 relative'>
+                          <img src="./assets/asset 11.png" className='w-full z-20 relative' alt="" />
+                          <div className=' absolute left-[-100px]'>
+                              <div className=' absolute content-[""] bottom-[75px] bg-gradient-to-b from-[#00c2ff00] to-[#ff29c3] rounded-full blur-[117px] h-[440px] w-0 md:w-[340px] left-[280px] right-0 opacity-70 '></div>
+                              <div className=' absolute content-[""] bottom-[75px] bg-gradient-to-b from-[#184bff00] to-[#42bf2f] blur-[100px] h-[456px] w-[321px] opacity-60'></div>
+                          </div>
                       </div>
                   </div>
               </div>

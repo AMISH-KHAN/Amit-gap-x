@@ -160,10 +160,7 @@ export default function About() {
 
       {/* Vision */}
               <div className="border-4 p-6 flex rounded-2xl w-full md:w-3/4  mt-8">
-              <div className="w-1/4 flex justify-end items-baseline">
-          {/* Insert SVG here */}
-          <img src="./assets/asset 19.svg" className='w-[64px]' alt="" />
-        </div>
+              
         <div className="w-3/4">
           <h2 className="text-[3rem] font-bold mb-4 text-[#7ec273]"> Vision</h2>
           <p className="text-white leading-relaxed text-[0.75rem] md:text-[1rem]">
@@ -174,7 +171,10 @@ export default function About() {
             and aspirations.
           </p>
         </div>
-        
+        <div className="w-1/4 flex justify-end items-baseline">
+          {/* Insert SVG here */}
+          <img src="./assets/asset 19.svg" className='w-[64px]' alt="" />
+        </div>
               </div>
               
 
