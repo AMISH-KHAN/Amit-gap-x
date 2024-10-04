@@ -3,7 +3,7 @@ import React from 'react'
 export default function Roadmap() {
   return (
     <>
-       <section id='about' className='py-[70px] w-full'>
+       <section id='about' className='py-[70px]  w-full'>
               <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative  z-20 m-auto flex '>
                   <div className="bg-cover bg-[0px 0px]  w-full " style={{ backgroundImage: "url('./assets/asset 19.png')",backgroundPosition:"0px 144px"  }}>
                       <h1 className='text-[45px] md:text-[70px] text-center text-white font-extrabold'><span className='text-[#7ec273]'>Platform </span> Roadmap</h1>
@@ -54,8 +54,8 @@ export default function Roadmap() {
                   </div>
               </div>
 
-              <div className='bg-[#0d0d0d] pt-[18px] pb-0 lg:pb-[90px] lg:overflow-hidden overflow-x-hidden h-fit lg:h-[90vh]'>
-                  <div className='mb-12 mt-4 z-[2] relative text-white xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto flex flex-col lg:flex-row'>
+              <div className='bg-[#0d0d0d] px-4 pt-[18px] pb-0 lg:pb-[90px] lg:overflow-hidden overflow-x-hidden h-fit lg:h-[90vh]'>
+                  <div className='mb-12 mt-4 z-[2] relative text-white xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto px-4 lg:px-8 flex flex-col lg:flex-row'>
                       <div className='w-full px-4 lg:w-1/2 my-12  '>
                           
                           <h1 className="text-[37px] lg:text-[58px] font-extrabold ">Download Our <span className='text-[#7ec273] '> Whitepaper</span></h1>
@@ -82,7 +82,7 @@ export default function Roadmap() {
               </section>
 
           <section className='py-[70px] w-full'>
-          <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative  z-20 m-auto flex '>
+          <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8 z-20 m-auto flex '>
 
                   <div className='flex lg:flex-row flex-col'>
                       <div className='md:w-[65%] py-4 lg:w-1/2'>
@@ -93,7 +93,7 @@ export default function Roadmap() {
                           </div>
                       </div>
 
-                      <div className= 'w-[90%] md:w-[65%] lg:w-1/2 mx-4 md:mx-auto my-8 text-wrap'>
+                      <div className= 'w-[90%] md:w-[65%] lg:w-1/2 mx-4 lg:mx-auto my-8 text-wrap'>
                           <button className=' box px-[25px] py-[15px] text-[18px] text-white w-fit border-[1px] rounded-[10px]'>
                           Our <span className='text-[#7ec273] text-[17px] font-bold'>Audit Report</span>
                           </button>

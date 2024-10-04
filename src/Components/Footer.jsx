@@ -13,7 +13,7 @@ import { FaXTwitter } from "react-icons/fa6";
 export default function Footer() {
   return (
     <>
-          <footer className=" text-white py-4 font-display relative  ">
+          <footer className=" text-white py-4 font-display relative z-10  ">
               <div className='relative text-white overflow-hidden pt-[30px] pb-[82px] rounded-t-[18px] rounded-tr-[18px] rounded-br-[3px] rounded-bl-[4px] custom-after' style={{ perspective: '800px'}}>
       <div className="container mx-auto px-6 z-20 relative ">
         {/* Branding Section */}

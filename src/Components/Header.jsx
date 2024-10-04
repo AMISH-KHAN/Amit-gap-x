@@ -13,7 +13,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 export default function Header() {
   return (
     <>
-      <header style={{ backgroundImage: "url('./assets/asset 17.png')" }} className="bg-cover bg-[0px 0px]  overflow-hidden ">
+      <header style={{ backgroundImage: "url('./assets/asset 17.png')" }} className="bg-cover bg-[0px 0px]  overflow-hidden relative">
         {/* <nav className="py-[20px]  w-full">
           <div className=" flex text-white justify-between items-center">
             <a id="logo " className=" pl-[25px]">
@@ -54,12 +54,12 @@ export default function Header() {
           </div>
         </nav> */}
 
-<Navbar expand="lg"  data-bs-theme="dark" className="py-3 z-10 w-full">
-      <Container className="d-flex justify-between align-items-center">
+<Navbar expand="lg"  data-bs-theme="dark" className="py-3 z-10">
+      <Container className="d-flex justify-between align-items-center w-full lg:w-[95%]">
         <Navbar.Brand href="#home" className="pl-3">
           <img
             src="./assets/asset 0.png"
-            className="h-[44px]"
+            className="h-[54px]"
             alt="Logo"
           />
         </Navbar.Brand>
@@ -154,10 +154,10 @@ export default function Header() {
   swipeable
             > */}
 
-            <div className="flex  flex-col md:flex-row  font-display font-semibold py-0 md:py-12 lg:px-4 px-0 " >
+            <div className="flex  flex-col md:flex-row  font-display font-semibold py-0 md:py-12 lg:px-12 px-4 " >
 
             <div class=" flex-col flex z-30 w-full lg:w-3/5 py-12 lg:py-24 px-4 ">
-              <h4 className="text-[34px] md:text-[63px] font-black text-white">
+              <h4 className="text-[34px] lg:text-[63px] font-black text-white">
               Shaping Your Secure Digital Future with{" " }
                 <span className="text-[#7ec273]">Gap-X</span>
               </h4>
@@ -171,7 +171,16 @@ export default function Header() {
               </div>
             </div>
             </div>
+            {/* <div className=" "> */}
+            <img
+              className=" absolute right-0 opacity-70 w-[31rem] md:w-[full] bottom-[-42rem] md:top-12"
+              src="./assets/glow1.png"
+              
+              alt=""
+            />
+          {/* </div> */}
               </section>
+      </header>
            
  
 
@@ -181,14 +190,6 @@ export default function Header() {
           
           
         
-            <div className=" absolute right-0 opacity-70 w-[31rem] md:w-[full] bottom-[-42rem] md:top-12 ">
-            <img
-              src="./assets/glow1.png"
-              
-              alt=""
-            />
-          </div>
-      </header>
 
      
     </>

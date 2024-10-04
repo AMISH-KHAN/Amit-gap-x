@@ -4,8 +4,8 @@ export default function About() {
   return (
     <>
           <section id='about' className='py-[70px] w-full font-display'>
-          <div className="xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-0 lg:px-8 mb-8  z-20 m-auto">
-          <div className="flex  flex-col md:flex-row-reverse  font-display font-semibold pt-12 lg:px-4 px-0  justify-between" >
+          <div className="xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8 mb-8  z-20 m-auto">
+          {/* <div className="flex  flex-col md:flex-row-reverse  font-display font-semibold pt-12 lg:px-4 px-0  justify-between" >
 
 <div class=" flex-col flex z-30 w-full lg:w-3/5 py-24 px-4 ">
   <h4 className="text-[34px] md:text-[63px] font-black text-white">
@@ -24,8 +24,33 @@ export default function About() {
     <img src="./assets/asset 2.png"  className=" w-full transition-all duration-500 ease-in-out hover:scale-110 scale-90" alt="" />
   </div>
   </div>
-  </div>
- 
+  </div> */}
+ <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative  z-20 m-auto flex lg:flex-row flex-col'>
+                  <div className=' font-display lg:w-5/12 w-full px-4 lg:pr-4'>
+                      <h1 className='text-[40px] lg:text-[54px] font-[850] text-white'>About <span className='text-[#7ec273]'>Gap-X</span></h1>
+                      <p className='mt-4 text-[17px] font-normal text-white'>Discover Gapx, where innovation meets reliability in the digital realm.</p>
+                      <div className='mt-12'>
+                          <div className=' border-l-2 border-[#7ec273] pl-[10px] mb-4'>
+                              <p className='text-white text-[16px] font-medium '>Launch :  Embark on the Gapx journey, launched in June 2024 on the BNB Smart Chain with an impressive total supply of 900 crore tokens</p>
+                          </div>
+                          <div className=' border-l-2 border-[#7ec273] pl-[10px] mb-4'>
+                              <p className='text-white text-[16px] font-medium '>Refrerral :  Immerse yourself in a world of possibilities: earn generous rewards through our dynamic referral program</p>
+                          </div>
+                          <div className=' border-l-2 border-[#7ec273] pl-[10px] mb-4'>
+                              <p className='text-white text-[16px] font-medium '>Airdrop : Explore our cutting-edge offerings: the Gapx Chain, a state-of-the-art blockchain network. the Gapx Wallet, an intuitive digital wallet solution. </p>
+                          </div>
+                          <div className=' border-l-2 border-[#7ec273] pl-[10px] mb-4'>
+                              <p className='text-white text-[16px] font-medium '>Security Focus : If security is mentioned on your website Rest assured, security is a top priority at CVTrade.io..</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div className=' w-full flex px-4  md:w-[40%] md:h-[40%] m-auto h-full'>
+                      <img src="./assets/asset 2.png" className='w-full' alt="" />
+                      
+                  </div>
+              </div>
+          
+          
           <div class="relative overflow-hidden pt-10 max-w-screen-lg justify-center items-center mx-auto ">
         <div class="absolute inset-0 flex items-center justify-between px-10">
           <div class="w-64 h-full bg-gradient-to-l "></div>
@@ -41,7 +66,7 @@ export default function About() {
               
                   </div>
                   <h2 class="lg:text-7xl text-5xl font-bold   text-center text-white pt-10 ">Token <samp class=" text-[#7ec273]">Details</samp> </h2>
-                  <div className="mt-12 md:flex justify-center items-center max-w-screen-xl mx-auto px-4 gap-10 ">
+                  <div className="mt-12 md:flex justify-center items-center max-w-screen-xl mx-auto px-8 gap-10 ">
       {/* First List */}
       <ul className="list-none p-0 m-0 w-full md:w-1/2">
         <li className="rounded-md border border-[#262932] flex items-center h-[60px] text-white text-[.875rem] md:text-[18px] mb-5">
@@ -110,7 +135,7 @@ export default function About() {
     </div>
           </section>
           
-          <section className="max-w-screen-xl backdrop-blur-sm flex flex-col items-center justify-center mx-auto">
+          <section className="max-w-screen-xl backdrop-blur-sm px-4 flex flex-col items-center justify-center mx-auto">
       <h1 className="font-black lg:text-7xl text-5xl mt-10 text-white text-center mb-4">
         Our Mission &amp; Vision
       </h1>
@@ -156,92 +181,7 @@ export default function About() {
           </section>
           
           <div className="flex items-center max-w-screen-xl mx-auto justify-center text-white pt-10">
-      <div>
-        <h2 className="lg:text-7xl text-5xl font-bold mb-4 font-Grandstander text-center">
-          GAP-X <samp className="font-Grandstander text-[#7ec273]">Ecosystem</samp>
-        </h2>
-
-        <div className="mx-auto px-2 grid gap-4 lg:grid-cols-3">
-          {/* Launchpad */}
-          <div className="bg-[#181927] pt-6 pl-6 pb-4 rounded-lg shadow-lg">
-            <div className="flex items-center mb-6">
-              <div className="text-blue-500 text-2xl mr-4 w-20">
-                <img src="/assets/asset 5.png" alt="Launchpad" />
-              </div>
-            </div>
-            <h3 className="text-xl font-semibold font-Grandstander text-[#7ec273] pb-1">Launchpad</h3>
-            <p className="font-Lotata">
-              Earn rewards by staking GAPX Tokens, contributing to network security and liquidity provision.
-            </p>
-          </div>
-
-          {/* Presale */}
-          <div className="bg-[#181927] pt-6 pl-6 pb-4 rounded-lg shadow-lg">
-            <div className="flex items-center mb-6">
-              <div className="text-blue-500 text-2xl mr-4 w-20">
-                <img src="/assets/asset 6.png" alt="Presale" />
-              </div>
-            </div>
-            <h3 className="text-xl font-semibold font-Grandstander text-[#7ec273] pb-1">Presale</h3>
-            <p className="font-Lotata">
-              Invite friends to join ExBit Global and earn rewards through our referral program, expanding your earnings with each new member.
-            </p>
-          </div>
-
-          {/* Development */}
-          <div className="bg-[#181927] pt-6 pl-6 pb-4 rounded-lg shadow-lg">
-            <div className="flex items-center mb-6">
-              <div className="text-blue-500 text-2xl mr-4 w-20">
-                <img src="/assets/asset 7.png" alt="Development" />
-              </div>
-            </div>
-            <h3 className="text-xl font-semibold font-Grandstander text-[#7ec273] pb-1">Development</h3>
-            <p className="font-Lotata">
-              Earn rewards by staking GAPX Tokens, contributing to network security and liquidity provision.
-            </p>
-          </div>
-
-          {/* Team */}
-          <div className="bg-[#181927] pt-6 pl-6 pb-4 rounded-lg shadow-lg">
-            <div className="flex items-center mb-6">
-              <div className="text-blue-500 text-2xl mr-4 w-20">
-                <img src="/assets/asset 8.png" alt="Team" />
-              </div>
-            </div>
-            <h3 className="text-xl font-semibold font-Grandstander text-[#7ec273] pb-1">Team</h3>
-            <p className="font-Lotata">
-              Engage in regular promotions and giveaways to win GAPX Tokens and other exciting rewards, recognizing your loyalty and active participation.
-            </p>
-          </div>
-
-          {/* Staking Partners Bonus */}
-          <div className="bg-[#181927] pt-6 pl-6 pb-4 rounded-lg shadow-lg">
-            <div className="flex items-center mb-6">
-              <div className="text-blue-500 text-2xl mr-4 w-20">
-                <img src="/assets/asset 5.png" alt="Staking Partners Bonus" />
-              </div>
-            </div>
-            <h3 className="text-xl font-semibold font-Grandstander text-[#7ec273] pb-1">Staking Partners Bonus</h3>
-            <p className="font-Lotata">
-              Reserved for incentivizing staking activities, encouraging active participation in the ecosystem and promoting token liquidity.
-            </p>
-          </div>
-
-          {/* Reserve */}
-          <div className="bg-[#181927] pt-6 pl-6 pb-4 rounded-lg shadow-lg">
-            <div className="flex items-center mb-6">
-              <div className="text-blue-500 text-2xl mr-4 w-20">
-                <img src="/assets/asset 9.png" alt="Reserve" />
-              </div>
-            </div>
-            <h3 className="text-xl font-semibold font-Grandstander text-[#7ec273] pb-1">Reserve</h3>
-            <div id="roadMap"></div>
-            <p className="font-Lotata">
-              Held in reserve to support liquidity management, strategic partnerships, and unforeseen operational needs, ensuring stability and sustainability.
-            </p>
-          </div>
-        </div>
-      </div>
+     
     </div>
     </>
   )
