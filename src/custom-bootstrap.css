@@ -66,6 +66,11 @@
     box-shadow: none;
   }
 
+  .navbar>.container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
   .custom-after::after {
     content: "";
     background: #1a1a1a;

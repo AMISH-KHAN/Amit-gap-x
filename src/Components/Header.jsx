@@ -39,10 +39,10 @@ export default function Header() {
                 <li>
                   <a href="">Contact Us</a>
                 </li>
-                <button className=" border-[1px] border-[#57934e] rounded-lg py-[6px] px-[12px] text-[18px] font-semibold">
+                <button className=" border-[1px] border-[#57934e] rounded-lg py-[6px] px-[12px] text-[18px] font-semibold mt-4 lg:mt-0">
                   Airdrop
                 </button>
-                <button className=" border-[1px] border-[#57934e] rounded-lg py-[6px] px-[12px] text-[18px] font-semibold">
+                <button className=" border-[1px] border-[#57934e] rounded-lg py-[6px] px-[12px] text-[18px] font-semibold mt-4 lg:mt-0">
                   {" "}
                   Sign in{" "}
                 </button>
@@ -57,7 +57,8 @@ export default function Header() {
 <section className="xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] sm:mx-0 lg:mx-auto relative  z-20 m-auto">
 
 <Navbar expand="lg"  data-bs-theme="dark" className="py-3 px-4 lg:px-12 z-10">
-      <div className="d-flex  justify-between align-items-center w-full lg:w-full ">
+            {/* <div className="d-flex  justify-between align-items-center w-full lg:w-full "> */}
+              <Container>
         <Navbar.Brand href="#home" >
           <img
             src="./assets/asset 0.png"
@@ -79,20 +80,21 @@ export default function Header() {
                 <div>
 
                 
-            <button className=" border-[1px] mr-4 text-white font-display border-[#57934e] rounded-lg py-[6px] px-[12px] text-[18px] font-semibold">
+            <button className=" border-[1px] mr-4 text-white font-display border-[#57934e] rounded-lg py-[6px] px-[12px] text-[18px] font-semibold mt-4 lg:mt-0">
                   Airdrop
                 </button>
-                <button className=" border-[1px] mr-4 text-white font-display border-[#57934e] rounded-lg py-[6px] px-[12px] text-[18px] font-semibold">
+                <button className=" border-[1px] mr-4 text-white font-display border-[#57934e] rounded-lg py-[6px] px-[12px] text-[18px] font-semibold mt-4 lg:mt-0">
                   {" "}
                   Sign in{" "}
                 </button>
-                <button className="bg-custom-gradient font-display rounded-lg py-[6px] px-[12px] text-[18px] font-semibold text-black">
+                <button className="bg-custom-gradient font-display rounded-lg py-[6px] px-[12px] text-[18px] font-semibold text-black mt-4 lg:mt-0">
                   Sign up{" "}
                   </button>
                   </div>
           </Nav>
         </Navbar.Collapse>
-      </div>
+            </Container>
+            {/* </div> */}
     </Navbar>
 
         
