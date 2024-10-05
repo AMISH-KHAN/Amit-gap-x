@@ -13,7 +13,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 export default function Header() {
   return (
     <>
-      <header style={{ backgroundImage: "url('./assets/asset 17.png')" }} className="bg-cover bg-[0px 0px]  overflow-hidden relative">
+      <header style={{ backgroundImage: "url('./assets/asset 17.png')" }} className="bg-cover bg-[0px 0px]  overflow-hidden relative ">
         {/* <nav className="py-[20px]  w-full">
           <div className=" flex text-white justify-between items-center">
             <a id="logo " className=" pl-[25px]">
@@ -54,9 +54,11 @@ export default function Header() {
           </div>
         </nav> */}
 
-<Navbar expand="lg"  data-bs-theme="dark" className="py-3 z-10">
-      <Container className="d-flex justify-between align-items-center w-full lg:w-[95%]">
-        <Navbar.Brand href="#home" className="pl-3">
+<section className="xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] sm:mx-0 lg:mx-auto relative  z-20 m-auto">
+
+<Navbar expand="lg"  data-bs-theme="dark" className="py-3 px-4 lg:px-12 z-10">
+      <div className="d-flex  justify-between align-items-center w-full lg:w-full ">
+        <Navbar.Brand href="#home" >
           <img
             src="./assets/asset 0.png"
             className="h-[54px]"
@@ -90,15 +92,11 @@ export default function Header() {
                   </div>
           </Nav>
         </Navbar.Collapse>
-      </Container>
+      </div>
     </Navbar>
 
-        <section
-          className="w-full   "
-          
-        >
+        
           <div className="relative before:content-[''] before:absolute before:-top-[4rem] before:left-0 before:w-[280px] before:h-[280px] before:rounded-full before:blur-[164px] before:bg-gradient-custom-glow "></div>
-          <div className="xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] sm:mx-0 lg:mx-auto relative  z-20 m-auto">
           {/* <Carousel
   additionalTransfrom={0}
   arrows={false}
@@ -154,7 +152,7 @@ export default function Header() {
   swipeable
             > */}
 
-            <div className="flex  flex-col md:flex-row  font-display font-semibold py-0 md:py-12 lg:px-12 px-4 " >
+            <div className="flex  flex-col md:flex-row  font-display font-semibold py-0  lg:px-12 px-4 " >
 
             <div class=" flex-col flex z-30 w-full lg:w-3/5 py-12  ">
               <h4 className="text-[34px] lg:text-[63px] font-black text-white">
@@ -170,7 +168,7 @@ export default function Header() {
                 <img src="./assets/asset 1.png"  className=" w-full transition-all duration-500 ease-in-out hover:scale-110 scale-90" alt="" />
               </div>
             </div>
-            </div>
+            
             {/* <div className=" "> */}
           {/* </div> */}
               </section>

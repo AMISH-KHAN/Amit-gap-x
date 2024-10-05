@@ -4,12 +4,11 @@ export default function Tokenomics() {
   return (
     <>
           
-          <section id='tokenomics' className='w-full  py-[68px] font-display'>
+          <section id='tokenomics' className='w-full pt-[68px] lg:px-0 pb-[68px] font-display'>
               <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8  z-20 m-auto text-white'>
                   <div>
                       <h5 className='text-[37px] lg:text-[58px] font-extrabold  mb-4'>
-                          Total
-                          <br />
+                          Total {" " }
                           <span className='text-[#7ec273]'>Supply & Allocation</span>
                       </h5>
                       

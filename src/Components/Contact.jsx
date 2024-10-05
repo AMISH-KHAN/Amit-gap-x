@@ -3,9 +3,9 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <section className="w-full  pb-[68px] relative font-display ">
+      <section className="w-full   relative font-display ">
         <div className="xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8  z-20 m-auto">
-          <div className="bg-black min-h-screen  flex flex-col lg:flex-row  ">
+          <div className="bg-black lg:h-[85vh] overflow-hidden  flex flex-col lg:flex-row  ">
               <div className="w-full lg:w-1/2">
                 <h1 className="text-4xl font-bold text-white mb-6">
                   Contact Us
@@ -58,11 +58,11 @@ export default function Contact() {
               </div>
 
               {/* Optional Illustration Section */}
-              <div className=" lg:w-[40%] md:w-1/2 m-1/2 w-full pl-0 md:pl-10 m-auto ">
+              <div className=" lg:w-[40%] md:w-1/2 m-1/2 w-full pl-0 md:pl-10 mx-auto mt-12 lg:mt-0  overflow-hidden">
                 <img
                   src="./assets/asset 14.png"
                   alt="Illustration"
-                  className="w-full object-cover m-auto  z-20 relative"
+                  className="w-full object-cover m-auto md:mx-auto  z-40 relative  transition-all duration-500 ease-in-out hover:scale-110 scale-90"
                           />
                           <div className=" absolute right-[90px] md:right-0 top-[588px]  md:top-[580px] lg:top-[200px]" >
                               <div className="absolute right-0 top-0 h-[413px] w-[413px] rounded-full bg-gradient-to-b from-[#2c4982] to-[#2cd095] blur-[150px]"></div>

@@ -64,7 +64,7 @@ export default function Footer() {
           Sign up to get our all latest news and
         </p>
         {/* Space for Image */}
-        <img src="./assets/asset 1.png" className=" h-[160px] md:h-0 w-40 mx-auto md:mx-0" alt="" />
+        <img src="./assets/asset 1.png" className=" ] md:h-0 w-40 mx-auto md:mx-0" alt="" />
         <form className="relative w-full lg:w-[70%]">
           <div className="relative">
             <input

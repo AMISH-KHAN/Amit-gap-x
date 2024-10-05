@@ -3,7 +3,7 @@ import React from 'react'
 export default function Roadmap() {
   return (
     <>
-       <section id='roadmap' className='py-[68px]  w-full'>
+       <section id='roadmap' className='pb-[68px]  w-full'>
               <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative  z-20 m-auto flex '>
                   <div className="bg-cover bg-[0px 0px]  w-full " style={{ backgroundImage: "url('./assets/asset 19.png')",backgroundPosition:"0px 144px"  }}>
                       <h1 className='text-[45px] md:text-[70px] text-center text-white font-extrabold'><span className='text-[#7ec273]'>Platform </span> Roadmap</h1>
@@ -54,7 +54,7 @@ export default function Roadmap() {
                   </div>
               </div>
 
-              <div className='bg-[#0d0d0d]  pt-[18px] pb-0 lg:pb-[90px] lg:overflow-hidden overflow-hidden h-fit  lg:h-[90vh]'>
+              <div className='bg-[#0d0d0d]   pb-0 lg:pb-[69px] lg:overflow-hidden overflow-hidden h-fit  lg:h-[90vh]'>
                   <div className='mb-12 mt-4 z-[2] relative text-white xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto px-4 lg:px-8 flex flex-col lg:flex-row'>
                       <div className='w-full lg:w-1/2 my-12 z-20 '>
                           
@@ -67,27 +67,28 @@ export default function Roadmap() {
               
                       </div>
 
-                      <div className='w-[70%] m-auto lg:w-5/12 relative h-[50vh]  md:h-fit '>
-                          <div>
-                              
+                      <div className='w-[70%] m-auto lg::m-0 md:w-1/3 py-4 lg:w-1/3 relative '>
+                          
+                          
+                              <img src="./assets/asset 10.png" className='z-10 relative w-full transition-all duration-500 ease-in-out hover:scale-110 scale-90 ' alt="" />
+                              <div className='absolute h-[10vh] md:h-full lg:left-0 left-[-100px]'>
+                                  
+                      <div className=" absolute content-[''] w-[198.73px] h-[281.73px] rounded-[50%] md:top-[-25rem] lg:top-[-20rem] top-[-20rem] right-[0px] md:right-[0px] blur-[50px] bg-gradient-custom-glow-03"></div>
                       <div className=" content-[''] w-[413px] h-[213px] rounded-[50%]   relative top-36 left-36 blur-[200px] bg-gradient-custom-glow-02"></div>
-                      <div className=" absolute content-[''] w-[198.73px] h-[281.73px] rounded-[50%] bottom-[12rem] right-[98px] md:right-[190px] blur-[50px] bg-gradient-custom-glow-03"></div>
-                          </div>
-                          <div className='w-full relative top-[-13rem] left-0 lg:left-[8rem]'>
-                              <img src="./assets/asset 10.png" className='z-10 relative w-full md:w-[50%] lg:w-[70%]' alt="" />
-                      </div>
+                              </div>
+                      
                       </div>
                   </div>
               </div>
               </section>
 
-          <section className='pb-[70px] w-full overflow-x-hidden'>
+          <section className='pb-[68px] w-full overflow-hidden h-fit  lg:h-[90vh]'>
           <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8 z-20 m-auto flex  '>
 
-                  <div className='flex lg:flex-row flex-col gap-16'>
+                  <div className='flex lg:flex-row-reverse  flex-col gap-16'>
                      
 
-                      <div className= 'w-[90%] md:w-[65%] lg:w-1/2   my-8 text-wrap z-20'>
+                      <div className= 'w-[90%] md:w-[65%] lg:w-1/2    text-wrap z-20'>
                           <button className=' box px-[25px] py-[15px] text-[18px] text-white w-fit border-[1px] rounded-[10px]'>
                           Our <span className='text-[#7ec273] text-[17px] font-bold'>Audit Report</span>
                           </button>
@@ -105,8 +106,8 @@ export default function Roadmap() {
               
                       </div>
                       <div className='w-[70%] m-auto lg::m-0 md:w-1/3 py-4 lg:w-1/3 relative'>
-                          <img src="./assets/asset 11.png" className='w-full z-20 relative' alt="" />
-                          <div className=' absolute left-[-100px]'>
+                          <img src="./assets/asset 11.png" className='w-full z-20 relative transition-all duration-500 ease-in-out hover:scale-110 scale-90' alt="" />
+                          <div className=' absolute h-[40vh] md:h-fit left-[-100px]'>
                               <div className=' absolute content-[""] bottom-[75px] bg-gradient-to-b from-[#00c2ff00] to-[#ff29c3] rounded-full blur-[117px] h-[440px] w-0 md:w-[340px] left-[280px] right-0 opacity-70 '></div>
                               <div className=' absolute content-[""] bottom-[75px] bg-gradient-to-b from-[#184bff00] to-[#42bf2f] blur-[100px] h-[456px] w-[321px] opacity-60'></div>
                           </div>

@@ -8,7 +8,7 @@ export default function Faq() {
        <section className='w-full  pb-[68px] relative'>
               <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8  z-20 m-auto'>
 
-    <div className=" mx-auto py-8">
+    <div className=" mx-auto py-12">
       <h2 className="text-[37px] lg:text-[58px] font-extrabold text-white mb-16">Frequently Asked Questions</h2>
             <Accordion  >
         <Accordion.Item eventKey="0" >
