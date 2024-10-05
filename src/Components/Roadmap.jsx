@@ -7,7 +7,7 @@ export default function Roadmap() {
               <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative  z-20 m-auto flex '>
                   <div className="bg-cover bg-[0px 0px]  w-full " style={{ backgroundImage: "url('./assets/asset 19.png')",backgroundPosition:"0px 144px"  }}>
                       <h1 className='text-[45px] md:text-[70px] text-center text-white font-extrabold'><span className='text-[#7ec273]'>Platform </span> Roadmap</h1>
-                      <div className=' mx-0 my-12 md:!mx-12 relative after:content-[""] after:absolute after:bottom-[235px] md:after:bottom-[14%] after:left-[31px] md:after:left-[50%] after:top-[16px] after:ml-[-3px] after:w-[6px] after:bg-custom-gradient'>
+                      <div className=' mx-0 my-12 md:!mx-12 relative after:content-[""] after:absolute after:bottom-[184px] md:after:bottom-[14%] after:left-[31px] md:after:left-[50%] after:top-[16px] after:ml-[-3px] after:w-[6px] after:bg-custom-gradient'>
                           
                           <div className='py-[10px] px-[40px] w-full md:w-[42%] relative left-0 font-display after:absolute md:after:right-[-69px] lg:after:right-[-22%] md:after:left-auto  after:top-[15px] after:w-[29px] after:h-[29px] after:rounded-full after:bg-no-repeat after:bg-cover after:z-[1]  after:bg-dot after:left-4 '>
                               <div className='rounded-[6px] border-[1px] ml-4  text-white py-[3px] px-[30px] relative'>
@@ -54,9 +54,9 @@ export default function Roadmap() {
                   </div>
               </div>
 
-              <div className='bg-[#0d0d0d]  pt-[18px] pb-0 lg:pb-[90px] lg:overflow-hidden overflow-x-hidden h-fit  lg:h-[90vh]'>
+              <div className='bg-[#0d0d0d]  pt-[18px] pb-0 lg:pb-[90px] lg:overflow-hidden overflow-hidden h-fit  lg:h-[90vh]'>
                   <div className='mb-12 mt-4 z-[2] relative text-white xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto px-4 lg:px-8 flex flex-col lg:flex-row'>
-                      <div className='w-full lg:w-1/2 my-12  '>
+                      <div className='w-full lg:w-1/2 my-12 z-20 '>
                           
                           <h1 className="text-[37px] lg:text-[58px] font-extrabold ">Download Our <span className='text-[#7ec273] '> Whitepaper</span></h1>
                           
@@ -81,13 +81,13 @@ export default function Roadmap() {
               </div>
               </section>
 
-          <section className='py-[70px] w-full'>
+          <section className='pb-[70px] w-full overflow-x-hidden'>
           <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8 z-20 m-auto flex  '>
 
                   <div className='flex lg:flex-row flex-col gap-16'>
                      
 
-                      <div className= 'w-[90%] md:w-[65%] lg:w-1/2   my-8 text-wrap'>
+                      <div className= 'w-[90%] md:w-[65%] lg:w-1/2   my-8 text-wrap z-20'>
                           <button className=' box px-[25px] py-[15px] text-[18px] text-white w-fit border-[1px] rounded-[10px]'>
                           Our <span className='text-[#7ec273] text-[17px] font-bold'>Audit Report</span>
                           </button>
