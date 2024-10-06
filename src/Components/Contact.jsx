@@ -5,7 +5,7 @@ export default function Contact() {
     <>
       <section className="w-full   relative font-display ">
         <div className="xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8  z-20 m-auto">
-          <div className="bg-black lg:h-[85vh] overflow-hidden  flex flex-col lg:flex-row  ">
+          <div className="bg-black lg:h-[80vh] overflow-hidden  flex flex-col lg:flex-row  ">
               <div className="w-full lg:w-1/2">
                 <h1 className="text-4xl font-bold text-white mb-6">
                   Contact Us
