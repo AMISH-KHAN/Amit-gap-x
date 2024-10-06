@@ -16,7 +16,7 @@ export default function Footer() {
     <>
           <footer className=" text-white py-4 font-display relative z-40  ">
               <div className='relative text-white overflow-hidden pt-[30px] pb-[82px] rounded-t-[18px] rounded-tr-[18px] rounded-br-[3px] rounded-bl-[4px] custom-after' style={{ perspective: '800px'}}>
-      <div className="container mx-auto px-4 z-20 relative ">
+      <div className="container mx-auto px-8 md:px-4 z-20 relative ">
         {/* Branding Section */}
         <div className="flex flex-col md:flex-row justify-between">
         <div className="mb-8 w-full md:mt-4 mt-8 text-[14px] md:text-[20px] mx-0 lg:mx-[10px] font-medium md:w-1/4">
