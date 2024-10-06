@@ -3,7 +3,7 @@ import React from 'react'
 export default function Roadmap() {
   return (
     <>
-       <section id='roadmap' className='pb-[68px]  w-full'>
+       <section id='roadmap' className='  w-full'>
               <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative  z-20 m-auto flex '>
                   <div className="bg-cover bg-[0px 0px]  w-full " style={{ backgroundImage: "url('./assets/asset 19.png')",backgroundPosition:"0px 144px"  }}>
                       <h1 className='text-[45px] md:text-[70px] text-center text-white font-extrabold'><span className='text-[#7ec273]'>Platform </span> Roadmap</h1>
@@ -54,8 +54,8 @@ export default function Roadmap() {
                   </div>
               </div>
 
-              <div className='bg-[#0d0d0d]   pb-0 lg:pb-[69px] lg:overflow-hidden overflow-hidden h-fit  lg:h-[90vh]'>
-                  <div className='mb-12 mt-4 z-[2] relative text-white xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto px-4 lg:px-8 flex flex-col lg:flex-row'>
+              <div className='bg-[#0d0d0d]   pb-0  lg:overflow-hidden overflow-hidden h-fit  lg:h-[80vh]'>
+                  <div className='mb-12 mt-4 z-[2] relative text-white xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto px-4 lg:px-8 flex flex-col  lg:flex-row  gap-0 lg:gap-[6rem]'>
                       <div className='w-full lg:w-1/2 my-12 z-20 '>
                           
                           <h1 className="text-[37px] lg:text-[58px] font-extrabold ">Download Our <span className='text-[#7ec273] '> Whitepaper</span></h1>
@@ -67,7 +67,7 @@ export default function Roadmap() {
               
                       </div>
 
-                      <div className='w-[70%] m-auto lg::m-0 md:w-1/3 py-4 lg:w-1/3 relative '>
+                      <div className='w-[70%] m-auto lg:m-0 md:w-1/3 py-4 lg:w-[30%] relative '>
                           
                           
                               <img src="./assets/asset 10.png" className='z-10 relative w-full transition-all duration-500 ease-in-out hover:scale-110 scale-90 ' alt="" />
@@ -82,13 +82,13 @@ export default function Roadmap() {
               </div>
               </section>
 
-          <section className='pb-[68px] w-full overflow-hidden h-fit  lg:h-[90vh]'>
+          <section className=' w-full overflow-hidden h-fit  lg:h-[80vh]'>
           <div className='xl:max-w-[1320px] lg:max-w-[1140px] md:max-w-[960px] sm:max-w-[540px] mx-auto relative px-4 lg:px-8 z-20 m-auto flex  '>
 
                   <div className='flex lg:flex-row-reverse  flex-col gap-16'>
                      
 
-                      <div className= 'w-[90%] md:w-[65%] lg:w-1/2    text-wrap z-20'>
+                      <div className= 'w-[90%] md:w-[65%] lg:w-1/2 mt-8   text-wrap z-20'>
                           <button className=' box px-[25px] py-[15px] text-[18px] text-white w-fit border-[1px] rounded-[10px]'>
                           Our <span className='text-[#7ec273] text-[17px] font-bold'>Audit Report</span>
                           </button>
@@ -105,7 +105,7 @@ export default function Roadmap() {
                           <button  className="bg-custom-gradient border-none outline-none text-black font-display text-[18px] font-semibold w-fit mt-4 pt-4 pr-[28px] pb-[18px] pl-[27px] rounded-[10px]" >Download Now</button>{' '}
               
                       </div>
-                      <div className='w-[70%] m-auto lg::m-0 md:w-1/3 py-4 lg:w-1/3 relative'>
+                      <div className='w-[70%] m-auto lg::m-0 md:w-1/3 py-4 lg:w-[30%] relative'>
                           <img src="./assets/asset 11.png" className='w-full z-20 relative transition-all duration-500 ease-in-out hover:scale-110 scale-90' alt="" />
                           <div className=' absolute h-[40vh] md:h-fit left-[-100px]'>
                               <div className=' absolute content-[""] bottom-[75px] bg-gradient-to-b from-[#00c2ff00] to-[#ff29c3] rounded-full blur-[117px] h-[440px] w-0 md:w-[340px] left-[280px] right-0 opacity-70 '></div>
