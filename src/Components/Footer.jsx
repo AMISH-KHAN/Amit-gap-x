@@ -59,8 +59,8 @@ export default function Footer() {
           {/* <div className="mb-8 md:mb-0 w-full md:w-1/6"> */}
           <div className="w-full sm:w-1/3 md:w-1/3 ">
       <div className="footer-widget">
-        <h6 className="text-xl font-display text-[#7ec273] mb-1">NEWSLETTER</h6>
-        <p className="text-sm text-[#FFF] mb-8 font-light font-display leading-7">
+        <h6 className="text-[20px] font-medium md:text-xl font-display text-[#7ec273] mb-1 mt-4">NEWSLETTER</h6>
+        <p className=" text-[#FFF] mb-8  font-display ">
           Sign up to get our all latest news and
         </p>
         {/* Space for Image */}
