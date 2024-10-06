@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 z-20 relative ">
         {/* Branding Section */}
         <div className="flex flex-col md:flex-row justify-between">
-        <div className="mb-8 w-full mt-8 text-[14px] md:text-[20px] mx-0 lg:mx-[10px] font-medium md:w-1/4">
+        <div className="mb-8 w-full md:mt-4 mt-8 text-[14px] md:text-[20px] mx-0 lg:mx-[10px] font-medium md:w-1/4">
                       <div>
                       <img
             src="./assets/asset 0.png"
