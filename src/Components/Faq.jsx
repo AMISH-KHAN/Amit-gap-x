@@ -14,55 +14,57 @@ export default function Faq() {
         <Accordion.Item eventKey="0" >
           <Accordion.Header className='  p-0 m-0' >
             <div className="w-full flex justify-between items-center  text-white font-bold text-[12px] font-display  p-4 rounded-md transition duration-300">
-              What is CV Token?
+            What is Gap-X?
             </div>
           </Accordion.Header>
           <Accordion.Body className=" text-white p-4 text-[14px] font-display font-medium">
-            CV Token is a cryptocurrency token that enables decentralized applications and services.
-          </Accordion.Body>
+                  Gap-X is a blockchain platform launched in June 2024 on the BNB Smart Chain, offering innovative digital solutions, including staking, liquidity provision, and rewards through its native GAPX token.
+                </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="1">
           <Accordion.Header>
             <div className="w-full flex justify-between items-center  text-white font-bold text-[12px] font-display  p-4 rounded-md  transition duration-300">
-              On sorceress we are based?
+            What are GAPX tokens?
             </div>
           </Accordion.Header>
           <Accordion.Body className=" text-white p-4 text-[14px] font-display font-medium">
-            CV Token is based on sorceress, ensuring security and decentralization for users.
+          GAPX tokens are the native utility tokens of the Gap-X ecosystem, used for staking, contributing to network security, and earning rewards.
+
+
           </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="2">
           <Accordion.Header>
             <div className="w-full flex justify-between items-center  text-white font-bold text-[12px] font-display  p-4 rounded-md  transition duration-300">
-              What Are The Advantages of CVToken?
+            What security measures does Gap-X have in place?
             </div>
           </Accordion.Header>
           <Accordion.Body className=" text-white p-4 text-[14px] font-display font-medium">
-            CVToken offers decentralized control, security, and seamless integration with existing blockchains.
+          Gap-X prioritizes security, ensuring robust protection across all its offerings, including the Gapx Chain and Gapx Wallet, to safeguard user assets and data.
           </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="3">
           <Accordion.Header>
             <div className="w-full flex justify-between items-center  text-white font-bold text-[12px] font-display  p-4 rounded-md  transition duration-300">
-              How we can earn on CVToken Project?
+            How can I earn rewards with GAPX tokens?
             </div>
           </Accordion.Header>
           <Accordion.Body className=" text-white p-4 text-[14px] font-display font-medium">
-            You can earn by participating in staking, liquidity pools, and governance activities in the CVToken ecosystem.
+          You can earn rewards by staking GAPX tokens, participating in liquidity provision, referring friends through our referral program, or engaging in promotions and giveaways.
           </Accordion.Body>
         </Accordion.Item>
 
         <Accordion.Item eventKey="4">
           <Accordion.Header>
             <div className="w-full flex justify-between items-center  text-white font-bold text-[12px] font-display  p-4 rounded-md  transition duration-300">
-              We Are Listed On?
+            What is staking, and how does it work on Gap-X?
             </div>
           </Accordion.Header>
           <Accordion.Body className=" text-white p-4 text-[14px] font-display font-medium">
-            CVToken is listed on major decentralized exchanges, enabling seamless trading and integration.
+          Staking involves locking your GAPX tokens to help secure the network and provide liquidity. In return, you earn rewards for your contribution to network security.
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
