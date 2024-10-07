@@ -40,7 +40,7 @@ export default function About() {
                               <p className='text-white text-[16px] font-medium '>Airdrop : Explore our cutting-edge offerings: the Gapx Chain, a state-of-the-art blockchain network. the Gapx Wallet, an intuitive digital wallet solution. </p>
                           </div>
                           <div className=' border-l-2 border-[#7ec273] pl-[10px] mb-4'>
-                              <p className='text-white text-[16px] font-medium '>Security Focus : If security is mentioned on your website Rest assured, security is a top priority at CVTrade.io..</p>
+                              <p className='text-white text-[16px] font-medium '>Security Focus :  Gapx places the highest priority on security, ensuring all digital transactions and activities across our ecosystem are protected by cutting-edge blockchain technology.</p>
                           </div>
                       </div>
                   </div>
